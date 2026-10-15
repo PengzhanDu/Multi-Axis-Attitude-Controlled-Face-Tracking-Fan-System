@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AT-60B" package="PBGA484A" speed="1" partNumber="GW5AT-LV60PG484AC1/I0"/>
+    <FileList>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\ATK.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\Dilate.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\Erode.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\Median.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cam_ctrl\PWM_Generator.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cam_ctrl\blue.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cam_ctrl\cam_ctrl.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cam_ctrl\integer_divider.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cam_ctrl\servo_control.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cam_ctrl\uart_receiver.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cam_ctrl\uart_transfer.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\cmos_8_16bit.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\ddr3_memory_interface\DDR3MI_400M.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\dvi_tx\DVI_TX_Top.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\face_box_denoise.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\fifo_sc_top\fifo_show_4096x16.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\fifo_top\video_fifo.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\gowin_pll\DDR_PLL_60K.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\gowin_pll\TMDS_PLL_60HZ.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\i2c_master\i2c_config.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\i2c_master\i2c_master_bit_ctrl.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\i2c_master\i2c_master_byte_ctrl.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\i2c_master\i2c_master_defines.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\i2c_master\i2c_master_top.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\i2c_master\timescale.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\image.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\img_box.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\lut_ov5640_rgb565_1280_720.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\matrix_3x3_16bit.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\pll_mDRP_intf.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\sort.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\syn_gen.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\testpattern.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\top.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\vga_timing.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\video_frame_buffer\Video_Frame_Buffer_Top.v" type="verilog"/>
+        <File path="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\src\video_timing_check.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\dupengzhan\Desktop\FPGA_GOWIN_FAN-main (1)\FPGA_GOWIN_FAN-main\cam_dvi_hanshuo_box\impl\gwsynthesis\cam2dvi.vg"/>
+        <Option type="print_all_synthesis_warning" value="1"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

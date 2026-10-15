@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="64" Lut="99" T_Register="6067(64)" T_Alu="1082(0)" T_Lut="8939(99)" T_MULTALU27X18="5(0)" T_MULT12X12="9(0)" T_Bsram="36(0)">
+ <SubModule name="Gowin_PLL_m0"/>
+ <SubModule name="i2c_config_m0" Register="13" Lut="24" T_Register="124(13)" T_Alu="15(0)" T_Lut="849(24)">
+  <SubModule name="i2c_master_top_m0" Register="17" Lut="681" T_Register="111(17)" T_Alu="15(0)" T_Lut="825(681)">
+   <SubModule name="byte_controller" Register="23" Lut="48" T_Register="94(23)" T_Alu="15(0)" T_Lut="144(48)">
+    <SubModule name="bit_controller" Register="71" Alu="15" Lut="96" T_Register="71(71)" T_Alu="15(15)" T_Lut="96(96)"/>
+   </SubModule>
+  </SubModule>
+ </SubModule>
+ <SubModule name="cmos_8_16bit_m0" Register="28" Lut="3" T_Register="28(28)" T_Lut="3(3)"/>
+ <SubModule name="vga_timing_m0" Register="28" Lut="63" T_Register="28(28)" T_Lut="63(63)"/>
+ <SubModule name="Video_Frame_Buffer_Top_inst" Register="336" Alu="34" Lut="727" Bsram="8" T_Register="336(336)" T_Alu="34(34)" T_Lut="727(727)" T_Bsram="8(8)"/>
+ <SubModule name="u_ddr3" Register="3823" Alu="125" Lut="2286" Bsram="12" T_Register="3823(3823)" T_Alu="125(125)" T_Lut="2286(2286)" T_Bsram="12(12)"/>
+ <SubModule name="u_RGB565_YCbCr444_face" Register="55" Alu="58" Lut="11" MULT12X12="4" T_Register="55(55)" T_Alu="58(58)" T_Lut="11(11)" T_MULT12X12="4(4)"/>
+ <SubModule name="u1_Median" Register="12" T_Register="352(12)" T_Alu="470(0)" T_Lut="656(0)" T_Bsram="8(0)">
+  <SubModule name="u_matrix_3x3_16bit" Register="121" Lut="147" T_Register="177(121)" T_Alu="26(0)" T_Lut="251(147)" T_Bsram="8(0)">
+   <SubModule name="u1" Register="28" Alu="13" Lut="52" Bsram="4" T_Register="28(28)" T_Alu="13(13)" T_Lut="52(52)" T_Bsram="4(4)"/>
+   <SubModule name="u2" Register="28" Alu="13" Lut="52" Bsram="4" T_Register="28(28)" T_Alu="13(13)" T_Lut="52(52)" T_Bsram="4(4)"/>
+  </SubModule>
+  <SubModule name="u1" Register="48" Alu="90" Lut="111" T_Register="48(48)" T_Alu="90(90)" T_Lut="111(111)"/>
+  <SubModule name="u2" Register="48" Alu="90" Lut="111" T_Register="48(48)" T_Alu="90(90)" T_Lut="111(111)"/>
+  <SubModule name="u3" Register="3" Lut="3" T_Register="3(3)" T_Lut="3(3)"/>
+  <SubModule name="u4" Register="16" Alu="64" Lut="44" T_Register="16(16)" T_Alu="64(64)" T_Lut="44(44)"/>
+  <SubModule name="u5" Register="16" Alu="61" Lut="50" T_Register="16(16)" T_Alu="61(61)" T_Lut="50(50)"/>
+  <SubModule name="u6" Register="16" Alu="47" Lut="47" T_Register="16(16)" T_Alu="47(47)" T_Lut="47(47)"/>
+  <SubModule name="u7" Register="16" Alu="92" Lut="39" T_Register="16(16)" T_Alu="92(92)" T_Lut="39(39)"/>
+ </SubModule>
+ <SubModule name="u_Erode" Register="13" Lut="49" T_Register="235(13)" T_Alu="26(0)" T_Lut="330(49)" T_Bsram="8(0)">
+  <SubModule name="u_matrix_3x3_16bit" Register="166" Lut="177" T_Register="222(166)" T_Alu="26(0)" T_Lut="281(177)" T_Bsram="8(0)">
+   <SubModule name="u1" Register="28" Alu="13" Lut="52" Bsram="4" T_Register="28(28)" T_Alu="13(13)" T_Lut="52(52)" T_Bsram="4(4)"/>
+   <SubModule name="u2" Register="28" Alu="13" Lut="52" Bsram="4" T_Register="28(28)" T_Alu="13(13)" T_Lut="52(52)" T_Bsram="4(4)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_img_box" Register="572" Alu="141" Lut="1045" MULT12X12="1" T_Register="572(572)" T_Alu="141(141)" T_Lut="1045(1045)" T_MULT12X12="1(1)"/>
+ <SubModule name="u_cam_ctrl" Register="60" Alu="51" Lut="524" MULT12X12="4" T_Register="60(60)" T_Alu="51(51)" T_Lut="524(524)" T_MULT12X12="4(4)"/>
+ <SubModule name="u_servo" Register="18" Lut="89" T_Register="317(18)" T_Alu="93(0)" T_Lut="2117(89)" T_MULTALU27X18="5(0)">
+  <SubModule name="u_blue" Register="55" Lut="169" T_Register="101(55)" T_Lut="251(169)">
+   <SubModule name="u_integer_devider" Register="9" Lut="15" T_Register="9(9)" T_Lut="15(15)"/>
+   <SubModule name="u_uart_receiver" Register="28" Lut="45" T_Register="28(28)" T_Lut="45(45)"/>
+   <SubModule name="u_uart_transfer" Register="9" Lut="22" T_Register="9(9)" T_Lut="22(22)"/>
+  </SubModule>
+  <SubModule name="u_ATK" Register="57" Lut="69" MULTALU27X18="2" T_Register="99(57)" T_Lut="141(69)" T_MULTALU27X18="2(2)">
+   <SubModule name="u_integer_devider" Register="5" Lut="7" T_Register="5(5)" T_Lut="7(7)"/>
+   <SubModule name="u_uart_receiver" Register="28" Lut="43" T_Register="28(28)" T_Lut="43(43)"/>
+   <SubModule name="u_uart_transfer" Register="9" Lut="22" T_Register="9(9)" T_Lut="22(22)"/>
+  </SubModule>
+  <SubModule name="u_servo1_pwm" Register="33" Alu="31" Lut="538" MULTALU27X18="1" T_Register="33(33)" T_Alu="31(31)" T_Lut="538(538)" T_MULTALU27X18="1(1)"/>
+  <SubModule name="u_servo2_pwm" Register="33" Alu="31" Lut="537" MULTALU27X18="1" T_Register="33(33)" T_Alu="31(31)" T_Lut="537(537)" T_MULTALU27X18="1(1)"/>
+  <SubModule name="u_speed_pwm" Register="33" Alu="31" Lut="561" MULTALU27X18="1" T_Register="33(33)" T_Alu="31(31)" T_Lut="561(561)" T_MULTALU27X18="1(1)"/>
+ </SubModule>
+ <SubModule name="u_tmds_pll"/>
+ <SubModule name="DVI_TX_Top_inst0" Register="73" Alu="69" Lut="229" T_Register="73(73)" T_Alu="69(69)" T_Lut="229(229)"/>
+</Module>

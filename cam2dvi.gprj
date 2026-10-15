@@ -1,0 +1,48 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+    <FileList>
+        <File path="src/ATK.v" type="file.verilog" enable="1"/>
+        <File path="src/Dilate.v" type="file.verilog" enable="1"/>
+        <File path="src/Erode.v" type="file.verilog" enable="1"/>
+        <File path="src/Median.v" type="file.verilog" enable="1"/>
+        <File path="src/cam_ctrl/PWM_Generator.v" type="file.verilog" enable="1"/>
+        <File path="src/cam_ctrl/blue.v" type="file.verilog" enable="1"/>
+        <File path="src/cam_ctrl/cam_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/cam_ctrl/integer_divider.v" type="file.verilog" enable="1"/>
+        <File path="src/cam_ctrl/servo_control.v" type="file.verilog" enable="1"/>
+        <File path="src/cam_ctrl/uart_receiver.v" type="file.verilog" enable="1"/>
+        <File path="src/cam_ctrl/uart_transfer.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_8_16bit.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_memory_interface/DDR3MI_400M.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx/DVI_TX_Top.v" type="file.verilog" enable="1"/>
+        <File path="src/face_box_denoise.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_top/fifo_show_4096x16.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/video_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/DDR_PLL_60K.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/TMDS_PLL_60HZ.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_config.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_bit_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_byte_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_top.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/timescale.v" type="file.verilog" enable="1"/>
+        <File path="src/image.v" type="file.verilog" enable="1"/>
+        <File path="src/img_box.v" type="file.verilog" enable="1"/>
+        <File path="src/lut_ov5640_rgb565_1280_720.v" type="file.verilog" enable="1"/>
+        <File path="src/matrix_3x3_16bit.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_mDRP_intf.v" type="file.verilog" enable="1"/>
+        <File path="src/sort.v" type="file.verilog" enable="1"/>
+        <File path="src/syn_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/testpattern.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/vga_timing.v" type="file.verilog" enable="1"/>
+        <File path="src/video_frame_buffer/Video_Frame_Buffer_Top.v" type="file.verilog" enable="1"/>
+        <File path="src/video_timing_check.v" type="file.verilog" enable="1"/>
+        <File path="src/NEO_DOCK.cst" type="file.cst" enable="1"/>
+        <File path="src/TMDS_60HZ.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

@@ -1,0 +1,161 @@
+{
+ "Device" : "GW5AT-60B",
+ "Files" : [
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/ATK.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/Dilate.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/Erode.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/Median.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cam_ctrl/PWM_Generator.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cam_ctrl/blue.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cam_ctrl/cam_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cam_ctrl/integer_divider.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cam_ctrl/servo_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cam_ctrl/uart_receiver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cam_ctrl/uart_transfer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/cmos_8_16bit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/ddr3_memory_interface/DDR3MI_400M.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/dvi_tx/DVI_TX_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/face_box_denoise.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/fifo_sc_top/fifo_show_4096x16.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/fifo_top/video_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/gowin_pll/DDR_PLL_60K.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/gowin_pll/TMDS_PLL_60HZ.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/i2c_master/i2c_config.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/i2c_master/i2c_master_bit_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/i2c_master/i2c_master_byte_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/i2c_master/i2c_master_defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/i2c_master/i2c_master_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/i2c_master/timescale.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/image.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/img_box.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/lut_ov5640_rgb565_1280_720.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/matrix_3x3_16bit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/pll_mDRP_intf.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/sort.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/syn_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/testpattern.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/vga_timing.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/src/video_timing_check.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/dupengzhan/Desktop/\u6d3b\u52a8/fpga\u56fd\u4e00\u5d4c\u8d5b/FPGA_GOWIN_FAN-main (1)/FPGA_GOWIN_FAN-main/cam_dvi_hanshuo_box/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
